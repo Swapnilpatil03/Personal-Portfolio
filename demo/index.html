@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Timeline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timeline">
+        <!-- Event 1 -->
+        <div class="timeline-event">
+            <div class="icon">
+                <img src="images/hack-western.png" alt="Hack Western Icon">
+            </div>
+            <div class="details">
+                <h3>November 23rd - 25th, 2018</h3>
+                <h2>Hack Western 5</h2>
+                <p>London, Ontario</p>
+                <p>Developed a mobile application which delivered bedtime stories to children using augmented reality.</p>
+            </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="timeline-event">
+            <div class="icon">
+                <img src="images/hack-north.png" alt="Hack The North Icon">
+            </div>
+            <div class="details">
+                <h3>September 14th - 16th, 2018</h3>
+                <h2>Hack The North</h2>
+                <p>Waterloo, Ontario</p>
+                <p>Developed a mobile application which delivers university campus wide events in real time to all students.</p>
+            </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="timeline-event">
+            <div class="icon">
+                <img src="images/firstnet.png" alt="FirstNet Icon">
+            </div>
+            <div class="details">
+                <h3>March 23rd - 24th, 2018</h3>
+                <h2>FirstNet Public Safety Hackathon</h2>
+                <p>San Francisco, California</p>
+                <p>Developed a mobile application which communicates a victim's medical data from inside an ambulance to doctors at a hospital.</p>
+            </div>
+        </div>
+
+        <!-- Event 4 -->
+        <div class="timeline-event">
+            <div class="icon">
+                <img src="images/developerweek.png" alt="DeveloperWeek Icon">
+            </div>
+            <div class="details">
+                <h3>February 3rd - 4th, 2018</h3>
+                <h2>DeveloperWeek Hackathon</h2>
+                <p>San Francisco, California</p>
+                <p>Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.</p>
+                <button>Github</button>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+  /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 2px;
+    height: 100%;
+    background: #ccc;
+}
+
+.timeline-event {
+    display: flex;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.details {
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.details h3 {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.details p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+
+</style>
+</html>
