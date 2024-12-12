@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -19,7 +23,7 @@
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#projects-section">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -88,19 +92,28 @@
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section-about">
-        <div class="text-container">
-          <p>
-            Hello! I'm Swapnil Rajendra Patil, a passionate and dedicated Java Developer
-            with one year of professional experience. As a B.Tech IT student, I
-            have honed my skills in various technologies, making me proficient
-            in both backend and frontend development.
-          </p>
-        </div>
-        <div class="about-btns" style="text-align: center;">
-          <button class="btn-abt edu-button" onclick="openModal('educationModal')"> &nbsp;&nbsp;Education &nbsp;&nbsp;</button>
-          <button class="btn-abt achieve-button">&nbsp;&nbsp;&nbsp;Journey&nbsp;&nbsp;&nbsp;</button>
-        </div>
-        
+          <div class="text-container">
+            <p>
+              Hello! I'm Swapnil Rajendra Patil, a passionate and dedicated Java
+              Developer with one year of professional experience. As a B.Tech IT
+              student, I have honed my skills in various technologies, making me
+              proficient in both backend and frontend development.
+            </p>
+          </div>
+          <div class="about-btns" style="text-align: center">
+            <button
+              class="btn-abt edu-button"
+              onclick="openModal('educationModal')"
+            >
+              &nbsp;&nbsp;Education &nbsp;&nbsp;
+            </button>
+            <button
+              class="btn-abt achieve-button"
+              onclick="navigateSmoothly('./demo/demo1.html')"
+            >
+              &nbsp;&nbsp;&nbsp;Journey&nbsp;&nbsp;&nbsp;
+            </button>
+          </div>
         </div>
         <div class="section-pic-container">
           <img
@@ -110,11 +123,11 @@
           />
         </div>
         <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='#projects-section'"
+        />
       </div>
     </section>
 
@@ -135,10 +148,7 @@
           <div class="dates">2023 - 2024</div>
         </div>
         <div class="education-entry">
-          <img
-            src="./assets/diploma.png"
-            alt="MIT"
-          />
+          <img src="./assets/diploma.png" alt="MIT" />
           <div class="details">
             <h3>Marathwada Institute of Technology Polytechnic</h3>
             <p>Diploma in Computer Science</p>
@@ -146,10 +156,7 @@
           <div class="dates">2020-2023</div>
         </div>
         <div class="education-entry">
-          <img
-            src="./assets/school.png"
-            alt="Tanwani English School"
-          />
+          <img src="./assets/school.png" alt="Tanwani English School" />
           <div class="details">
             <h3>Tanwani English School</h3>
             <p>School</p>
@@ -159,7 +166,118 @@
       </div>
     </div>
 
+    <!-- Project Section -->
 
+    <section id="projects-section" class="projects-section">
+      <span class="badge">My Projects</span>
+      <h2>Check out my <span class="highlight">latest work</span></h2>
+      <p class="subb">
+        I've worked on a variety of projects, from simple websites to complex
+        web applications. Here are a few of my favorites.
+      </p>
+
+      <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card red-border">
+          <div class="video-container">
+            <video src="project1.mp4" controls muted></video>
+          </div>
+          <h3>Chat Collect</h3>
+          <p class="date">Jan 2024 - Feb 2024</p>
+          <p>
+            With the release of the
+            <a href="#" target="_blank">OpenAI GPT Store</a>, I built a SaaS to
+            allow users to collect email addresses from GPT users.
+          </p>
+          <div class="tags">
+            <span>Next.js</span>
+            <span>Typescript</span>
+            <span>PostgreSQL</span>
+            <span>Prisma</span>
+            <span>TailwindCSS</span>
+            <span>Stripe</span>
+            <span>Shadcn UI</span>
+            <span>Magic UI</span>
+          </div>
+          <button class="btn">Website</button>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="video-container">
+            <video src="project2.mp4" controls muted></video>
+          </div>
+          <h3>Magic UI</h3>
+          <p class="date">June 2023 - Present</p>
+          <p>
+            Designed, developed, and sold animated UI components for developers.
+          </p>
+          <div class="tags">
+            <span>Next.js</span>
+            <span>Typescript</span>
+            <span>PostgreSQL</span>
+            <span>Prisma</span>
+            <span>TailwindCSS</span>
+            <span>Stripe</span>
+            <span>Shadcn UI</span>
+            <span>Magic UI</span>
+          </div>
+          <button class="btn">Website</button>
+          <button class="btn black">Source</button>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="video-container">
+            <video src="project3.mp4" controls muted></video>
+          </div>
+          <h3>Magic UI</h3>
+          <p class="date">June 2023 - Present</p>
+          <p>
+            Designed, developed, and sold animated UI components for developers.
+          </p>
+          <div class="tags">
+            <span>Next.js</span>
+            <span>Typescript</span>
+            <span>PostgreSQL</span>
+            <span>Prisma</span>
+            <span>TailwindCSS</span>
+            <span>Stripe</span>
+            <span>Shadcn UI</span>
+            <span>Magic UI</span>
+          </div>
+          <button class="btn">Website</button>
+          <button class="btn black">Source</button>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <div class="video-container">
+            <video src="project4.mp4" controls muted></video>
+          </div>
+          <h3>Interactive Dashboard</h3>
+          <p class="date">Aug 2024 - Present</p>
+          <p>
+            Created an interactive data dashboard for better data visualization
+            and analysis.
+          </p>
+          <div class="tags">
+            <span>React</span>
+            <span>Chart.js</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>Express</span>
+          </div>
+          <button class="btn">Website</button>
+          <button class="btn black">Source</button>
+        </div>
+      </div>
+
+      <div class="slider-buttons">
+        <button class="prev" onclick="moveSlider('prev')">Prev</button>
+        <button class="next" onclick="moveSlider('next')">Next</button>
+      </div>
+    </section>
   </body>
   <script src="script.js"></script>
 </html>
