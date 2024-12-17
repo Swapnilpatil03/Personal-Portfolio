@@ -641,3 +641,79 @@ section {
 .slider-buttons button:hover {
   opacity: 0.8;
 }
+
+
+
+/* ----------------------------------------------------------------------------- */
+/* Skills of Technology Stack  */
+.skills {
+  margin-top: 80px;
+  padding: 60px 20px;
+  /* font-family: 'Varela Round', sans-serif; */
+  text-align: center;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background-color: rgb(255, 253, 250);
+  margin-bottom: 20px;
+}
+
+.headd {
+  margin-bottom: 50px;
+  
+}
+.head-skill h2{
+  line-height: 1;
+  margin: 8px 0px 0px ;
+  text-align: center;
+}
+
+.head-skill p{
+  line-height: 1;
+  margin: 8px 0px 0px ;
+  text-align: center;
+}
+
+.head-skill {
+  font-size: 35px;
+  font-weight: 600;
+  color: #666666;
+  padding-bottom: 10px;
+   text-transform: uppercase;
+}
+
+.centered-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px; /* Control overall width */
+  margin: 0 auto;
+}
+
+.centered-row div {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-row img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 5px #ddd;
+  transition: transform 0.3s ease;
+  padding: 5px;
+  object-fit: cover;
+  object-position: center;  
+  cursor: pointer;  
+}
+
+.centered-row img:hover {
+  transform: scale(1.2);
+}
+
+.main-contai1 .head-skill {
+  padding-bottom: 0px;
+}
