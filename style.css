@@ -717,3 +717,62 @@ section {
 .main-contai1 .head-skill {
   padding-bottom: 0px;
 }
+
+
+
+
+/* --------------------------------------------------------- */
+/* Contact me  */
+.contact-section {
+  max-width: 800px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  text-align: center; /* Center the content */
+  margin: 0 auto; /* Center horizontally */
+  color: #333;
+}
+
+/* Contact Button */
+.contact-button {
+  display: inline-block;
+  background: black;
+  color: white;
+  font-size: 0.9rem;
+  padding: 6px 14px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* Heading */
+.heading {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 8px 0px 10px;
+  color: #000;
+}
+
+/* Contact Text */
+.contact-text {
+  color: #737373;
+  margin: 12px 0px 0px;
+  padding: 0px 15%;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* Highlighted Link */
+.twitter-link {
+  color: #1da1f2; /* Twitter Blue */
+  text-decoration: none;
+  line-height: 0px;
+}
+
+.twitter-link:hover {
+  text-underline-offset: 4px;
+  text-decoration: underline;
+  color: #1da1f2;
+  opacity: 0.9;
+}
