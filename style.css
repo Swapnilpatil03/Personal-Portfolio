@@ -731,6 +731,7 @@ section {
   text-align: center; /* Center the content */
   margin: 0 auto; /* Center horizontally */
   color: #333;
+  height: 40vh;
 }
 
 /* Contact Button */
@@ -775,4 +776,128 @@ section {
   text-decoration: underline;
   color: #1da1f2;
   opacity: 0.9;
+}
+
+
+/* ------------------------------------- Footer ----------------------------------------- */
+
+
+
+footer {
+  background: linear-gradient(135deg, #111, #222);
+  color: #fff;
+  padding: 40px 0;
+}
+
+/* Footer Content */
+.footer-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-content h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.footer-content p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 15px;
+  color: #ccc;
+}
+
+/* Social Icons */
+.socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.3rem;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Social Media Colors */
+.socials a.instagram {
+  background-color: #E1306C; /* Instagram signature color */
+}
+
+.socials a.telegram {
+  background-color: #0088cc; /* Telegram signature color */
+}
+
+.socials a.linkedin {
+  background-color: #0077b5; /* LinkedIn signature color */
+}
+
+.socials a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  background: #171717e1;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-bottom a {
+  color: #27bcda;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Menu */
+.footer-menu ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-menu ul li {
+  margin: 0 15px;
+}
+
+.footer-menu ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+
+.foot{
+  height: 50vh;
+  margin: 0;
 }
