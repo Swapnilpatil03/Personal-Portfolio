@@ -1,7 +1,7 @@
 # 💼 Swapnil Patil — Personal Portfolio
 
 Welcome to my personal portfolio website!  
-🔗 **Live Site:** [https://personal-portfolio-ezxe.onrender.com](https://personal-portfolio-ezxe.onrender.com)
+🔗 **Live Site:**  https://personal-portfolio-l2b7.onrender.com/
 
 This portfolio showcases my projects, skills, achievements, and passion for building technology-driven solutions. It’s built using clean HTML, CSS, and JavaScript.
 
